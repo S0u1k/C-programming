@@ -1,0 +1,20 @@
+/*WAP to take input into a character array/string & compare 2 string
+  by using System defined func./ library func./ inbuilt func.
+*/
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+   char x[20],y[20];
+   int i;
+   printf("Enter the 1st String = ");
+   gets(x);
+   printf("Enter the 2nd String = ");
+   gets(y);
+   i=strcmpi(x,y);
+   if(i==0)
+     printf("String Matched");
+   else
+     printf("String NOT Matched");
+
+}
